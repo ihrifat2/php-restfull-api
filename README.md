@@ -10,7 +10,8 @@ Restfull api using php slim Framework
 
 1. Clone repository `git clone https://github.com/ihrifat2/php-restfull-api.git`
 2. Start mysql and apache server from XAMPP
-3. Go to phpmyadmin and Import slimapp.sql in phpmyadmin
+3. Go to phpmyadmin and Create a datebase named `slimapp`
+4. Import slimapp.sql in phpmyadmin
 
 ## Usage
 
