@@ -26,26 +26,49 @@ Index | HTTP Method | Endpoint
 
 Get all users information
 
+Example: site.com/api/users
+
 ```json
-[{"id":"1","first_name":"imran","last_name":"hadid","phone":"23456764321","email":"imran@hadid.com","address":"dhanmondi","city":"dhaka","state":"bd"}]
+[{"id":"1","first_name":"Imran","last_name":"Hadid","phone":"23456764321","email":"imran@hadid.com","address":"27 Dhanmondi","city":"Dhaka","state":"BD"},{"id":"2","first_name":"Peter","last_name":"Jhonson","phone":"56546454","email":"Peter@mail.com","address":"55 st","city":"Berlin","state":"GR"}]
 ```
 
-### 2
+### /api/user/{user-id}
 
-/api/user/{user-id}
 Get single user information
 
-### 3
+Example: site.com/api/user/1
 
-/api/user/add
+```json
+[{"id":"1","first_name":"Imran","last_name":"Hadid","phone":"23456764321","email":"imran@hadid.com","address":"27 Dhanmondi","city":"Dhaka","state":"BD"}]
+```
+
+### /api/user/add
+
 Add user
 
-### 4
+Example: site.com/api/user/add
 
-/api/user/edit/{user-id}
+```json
+{'notice': {'text': 'User Added'}}
+```
+
+### /api/user/edit/{user-id}
+
 Edit user
 
-### 5
+Example: site.com/api/user/edit/1
 
-/api/user/delete/{user-id}
+```json
+{'notice': {'text': 'User Updated'}}
+```
+
+
+### /api/user/delete/{user-id}
+
 Delete user
+
+Example: site.com/api/user/delete/1
+
+```json
+{'notice': {'text': 'User Deleted'}}
+```
