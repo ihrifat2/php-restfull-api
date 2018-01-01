@@ -49,7 +49,7 @@ Add user
 Example: site.com/api/user/add
 
 ```json
-[{'notice': {'text': 'User Added'}}]
+[{"notice": {"text": "User Added"}}]
 ```
 
 ### /api/user/edit/{user-id}
@@ -59,7 +59,7 @@ Edit user
 Example: site.com/api/user/edit/1
 
 ```json
-[{'notice': {'text': 'User Updated'}}]
+[{"notice": {"text": "User Updated"}}]
 ```
 
 
@@ -70,5 +70,5 @@ Delete user
 Example: site.com/api/user/delete/1
 
 ```json
-[{'notice': {'text': 'User Deleted'}}]
+[{"notice": {"text": "User Deleted"}}]
 ```
