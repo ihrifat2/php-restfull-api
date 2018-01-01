@@ -13,10 +13,10 @@ Restfull api using php slim Framework
 
 ## Usage
 
-HTTP Method | Endpoint | Details
---------|----------|----------
-GET | api/users | Get all users information
-GET | api/user/{user-id} | Get single user information
-POST | api/user/add | Add user
-PUT | api/user/edit/{user-id} | Edit user
-DELETE | api/user/delete/{user-id} | Delete user
+Index | HTTP Method | Endpoint | Details
+--------|--------|----------|----------
+1 | GET | /api/users | Get all users information
+2 | GET | /api/user/{user-id} | Get single user information
+3 | POST | /api/user/add | Add user
+4 | PUT | /api/user/edit/{user-id} | Edit user
+5 | DELETE | /api/user/delete/{user-id} | Delete user
