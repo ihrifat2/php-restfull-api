@@ -14,10 +14,39 @@ Restfull api using php slim Framework
 
 ## Usage
 
-Index | HTTP Method | Endpoint | Details
---------|--------|----------|----------
-1 | GET | /api/users | Get all users information
-2 | GET | /api/user/{user-id} | Get single user information
-3 | POST | /api/user/add | Add user
-4 | PUT | /api/user/edit/{user-id} | Edit user
-5 | DELETE | /api/user/delete/{user-id} | Delete user
+Index | HTTP Method | Endpoint
+--------|--------|----------
+1 | GET | /api/users
+2 | GET | /api/user/{user-id}
+3 | POST | /api/user/add
+4 | PUT | /api/user/edit/{user-id}
+5 | DELETE | /api/user/delete/{user-id}
+
+### 1
+
+/api/users
+Get all users information
+
+```json
+[{"id":"1","first_name":"imran","last_name":"hadid","phone":"23456764321","email":"imran@hadid.com","address":"dhanmondi","city":"dhaka","state":"bd"}}
+```
+
+### 2
+
+/api/user/{user-id}
+Get single user information
+
+### 3
+
+/api/user/add
+Add user
+
+### 4
+
+/api/user/edit/{user-id}
+Edit user
+
+### 5
+
+/api/user/delete/{user-id}
+Delete user
