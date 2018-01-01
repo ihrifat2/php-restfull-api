@@ -1,4 +1,4 @@
-# php restfull api
+# Php restfull api
 
 Restfull api using php slim Framework
 
@@ -22,7 +22,7 @@ Index | HTTP Method | Endpoint
 4 | PUT | /api/user/edit/{user-id}
 5 | DELETE | /api/user/delete/{user-id}
 
-### 1 /api/users
+## /api/users
 
 Get all users information
 
