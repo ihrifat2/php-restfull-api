@@ -22,13 +22,12 @@ Index | HTTP Method | Endpoint
 4 | PUT | /api/user/edit/{user-id}
 5 | DELETE | /api/user/delete/{user-id}
 
-### 1
+### 1 /api/users
 
-/api/users
 Get all users information
 
 ```json
-[{"id":"1","first_name":"imran","last_name":"hadid","phone":"23456764321","email":"imran@hadid.com","address":"dhanmondi","city":"dhaka","state":"bd"}}
+[{"id":"1","first_name":"imran","last_name":"hadid","phone":"23456764321","email":"imran@hadid.com","address":"dhanmondi","city":"dhaka","state":"bd"}]
 ```
 
 ### 2
